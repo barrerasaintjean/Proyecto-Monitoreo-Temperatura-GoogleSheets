@@ -20,5 +20,13 @@ Automatizar es mejor: Dejé de anotar temperaturas a mano. Ahora el sistema lo h
 Gráficos que ayudan: Hice un gráfico sencillo en Sheets que se actualiza solo. Así puedo ver rápido las variaciones de temperatura.
 
 Orden de los datos: Entendí la importancia de que cada dato tenga su fecha y hora exacta (timestamp) para entender el comportamiento de los datos.
+![Datos de Temperatura](img/sensores/excel%20temperatura.png)
 
-reflexion:entender el comportamiento de los datos me permite entender a que temperatura se apaga el motor y a que temperatura se prende el motor, ademas de saber cual es la temperatura al dejar la puerta abierta para sacar productos.
+reflexion:entender el comportamiento de los datos me permite entender a que temperatura se apaga el motor y a que temperatura se prende el motor, ademas de saber cual es la temperatura al dejar la puerta abierta para sacar productos.Lo que quiero mejorar (Mi Hoja de Ruta) 🚀
+Como este es mi primer prototipo, todavía tiene mucho por mejorar y eso es lo que más me emociona:
+
+Aprender SQL: Quiero dejar de usar Sheets y empezar a guardar todo en una base de datos de verdad (PostgreSQL).
+
+Medir el gasto: Me gustaría agregar sensores de corriente para ver cuánta luz gasta la cámara cuando enfría.
+
+Dashboards más lindos: Mi meta es aprender a usar Grafana para que los gráficos se vean mucho más profesionales y "pro".
