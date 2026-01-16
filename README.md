@@ -1,2 +1,24 @@
-# Proyecto-Monitoreo-Temperatura-GoogleSheets
-Este proyecto surgió porque tenía dudas sobre si la temperatura de la cámara de frío estaba funcionando realmente como debía. Decidí extraer datos reales para dejar de adivinar y usar el análisis de datos para entender qué estaba pasando 
+# Proyecto: Mi primer sistema de monitoreo (Cámaras de Frío) 🌡️
+¿Por qué hice este proyecto?
+Todo empezó porque tenía la sospecha de que la temperatura de la cámara de frío no estaba funcionando bien. Como no quería seguir adivinando, decidí extraer datos reales directamente del equipo. Este proyecto nace de esa necesidad de pasar de "creer algo" a "verlo con datos" para evitar que se pierda mercadería por descuidos o fallas de los equipos.
+
+¿Cómo lo armé? (Mis herramientas)
+Para esta primera versión, usé componentes sencillos pero efectivos:
+
+Cerebro: ESP32 (mi primer contacto con este microcontrolador).
+
+Sensores: 2 sensores DS18B20 (los que son sumergibles para que aguanten el frío).
+
+Conexión: Una resistencia de 4.7kΩ y cables jumper en protoboard.
+
+El camino de los datos:
+Logré que el ESP32 se conecte al WiFi, mande la señal a un script de Google (Apps Script) y de ahí se escriba solito en una fila de Google Sheets. ¡Ver los datos aparecer en la hoja de cálculo por primera vez fue genial!
+
+Lo que aprendí haciendo esto (Rol de Analista Jr):
+Automatizar es mejor: Dejé de anotar temperaturas a mano. Ahora el sistema lo hace solo cada ciertos minutos.
+
+Gráficos que ayudan: Hice un gráfico sencillo en Sheets que se actualiza solo. Así puedo ver rápido las variaciones de temperatura.
+
+Orden de los datos: Entendí la importancia de que cada dato tenga su fecha y hora exacta (timestamp) para entender el comportamiento de los datos.
+
+reflexion:entender el comportamiento de los datos me permite entender a que temperatura se apaga el motor y a que temperatura se prende el motor, ademas de saber cual es la temperatura al dejar la puerta abierta para sacar productos.
